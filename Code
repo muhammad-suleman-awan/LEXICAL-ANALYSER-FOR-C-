@@ -75,7 +75,7 @@ void Lexical(string str)
                           lexeme=c;
                         cout<<" Tokken< "<<"  Operators , "<<lexeme<<" >"<<endl;
                         lexeme="";
-                        flag=0;
+                      
 
                     }
                     else if(c=='-')
@@ -84,7 +84,7 @@ void Lexical(string str)
                         lexeme=c;
                         cout<<" Tokken<  "<<"  Operators , "<<lexeme<<" >"<<endl;
                         lexeme="";
-                        flag=0;
+                      
 
                     }
                     else if(c=='*')
@@ -93,7 +93,7 @@ void Lexical(string str)
                         lexeme=c;
                         cout<<" Tokken< "<<"  Operators , "<<lexeme<<" >"<<endl;
                         lexeme="";
-                        flag=0;
+                 
 
                     }
                     else if(c=='%')
@@ -102,7 +102,7 @@ void Lexical(string str)
                         lexeme=c;
                         cout<<" Tokken< "<<"  Operators , "<<lexeme<<" >"<<endl;
                         lexeme="";
-                        flag=0;
+                    
 
                     }
                      else if(c=='=')
@@ -111,7 +111,7 @@ void Lexical(string str)
                         lexeme=c;
                         cout<<" Tokken< "<<"  Operators , "<<lexeme<<" >"<<endl;
                         lexeme="";
-                        flag=0;
+                   
 
                     }
                     else if(c==';')
@@ -120,7 +120,7 @@ void Lexical(string str)
                         lexeme=c;
                         cout<<" Tokken< "<<"  Special Symbols , "<<lexeme<<" >"<<endl;
                         lexeme="";
-                        flag=0;
+                   
 
                     }
                     else if(c=='<')
@@ -133,7 +133,7 @@ void Lexical(string str)
                         lexeme=c;
                         cout<<" Tokken<  "<<"  Special Symbols  , "<<lexeme<<" >"<<endl;
                         lexeme="";
-                        flag=0;
+               
 
                     }
                     else if(c=='}')
@@ -142,7 +142,7 @@ void Lexical(string str)
                         lexeme=c;
                         cout<<" Tokken< "<<"  Special Symbols  , "<<lexeme<<" >"<<endl;
                         lexeme="";
-                        flag=0;
+            
 
                     }
                     else if(c=='{')
@@ -151,7 +151,7 @@ void Lexical(string str)
                         lexeme=c;
                         cout<<" Tokken<  "<<"  Special Symbols , "<<lexeme<<" >"<<endl;
                         lexeme="";
-                        flag=0;
+                    
 
                     }
                     else if(is_Delimeter(c))
@@ -237,7 +237,7 @@ void Lexical(string str)
                         }
                     break;
             }
-            if(flag)
+            
             lexeme=lexeme+c;
 
         i++;
