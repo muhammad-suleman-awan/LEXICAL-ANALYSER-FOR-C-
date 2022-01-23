@@ -1,0 +1,12 @@
+Using the basic idea provided in the lecture, you are supposed to write the Ad-hoc lexical analyzer for 
+C++ which generates the token for the following categories:
+• Keywords
+• Identifiers
+• Operators
+• Numeric constants 
+• Character constants
+• Punctuations / Special Symbols
+•
+Input: A Complete Program in C++ from a file
+Output: Tokens in the following format accordingly:
+<token type, token name >
